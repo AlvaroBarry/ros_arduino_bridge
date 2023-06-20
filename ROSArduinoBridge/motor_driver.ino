@@ -54,6 +54,11 @@
   void setMotorSpeeds(int leftSpeed, int rightSpeed) {
     setMotorSpeed(LEFT, leftSpeed);
     setMotorSpeed(RIGHT, rightSpeed);
+   /* Serial.print(leftSpeed);
+    Serial.print(" ");
+    Serial.println(rightSpeed);*/
+
+
   }
 #elif defined L298_MOTOR_DRIVER
   void initMotorController() {
