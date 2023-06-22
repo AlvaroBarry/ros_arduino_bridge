@@ -8,7 +8,7 @@
   #define RIGHT_MOTOR_FORWARD  10 //10 o 9
   #define LEFT_MOTOR_FORWARD   5 //5 o 6
   #define RIGHT_MOTOR_ENABLE 8 //8
-  #define LEFT_MOTOR_ENABLE 7 //7-´´
+  #define LEFT_MOTOR_ENABLE 7 //7
 #endif
 
 void initMotorController();
